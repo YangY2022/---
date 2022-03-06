@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="index">
+    <!--轮播图-->
+  <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for-items="{{lunboData}}">
+      <swiper-item>
+        <image src="{{item.imgurl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+
+
+
+<text>
+
+<text class="Go">【预约须知】</text>
+1.图书馆现实行预约制,请同学提前通过图书馆微信小程序进行预约。每日19:00停止预约。
+<text class="Go">2.疫情期间,开馆时间为8:00-21:00,法定节假日除外。</text>
+3.疫情期间,每日同时在馆人数上限为300人。当馆内人数临近人数上限时,我馆将视情况采取限流措施。
+4.一个微信号最多可预约1人。
+<text class="Go">5.微信公众号预约目前仅支持校园卡，学生证及手机号实名认证,请务必填写真实有效信息。</text>
+6.疫情期间,进馆时请全程正确佩戴口罩。
+7.如有疑问请去图书馆一楼服务台咨询，感谢配合！
+
+</text>
+<view class="shuoming">
+    <view class="shuoming_biaoti">预约订座使用说明</view>
+    <view class="shuoming_xiangmu">1：需要登录，可提前预约4天</view>
+    <view class="shuoming_xiangmu">2：先选定日期，然后选类型，选座位</view>
+    <view class="shuoming_xiangmu">3：填写预约人的姓名和联系方式，然后按“提交座位预约”按扭即可。</view>
+</view>
+<navigator class="yuyue" url="pages/lo/index" open-type='switchTab' >
+    我要预约
+</navigator>
+</view>

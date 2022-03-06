@@ -1,0 +1,33 @@
+<view>
+    <image mode="widthFix" src="../../image/G2.jpg" class="ad01"></image>
+</view>
+<view class="xinxi">
+    <view class="xinxi_xiangmu">
+        <view class="xinxi_xiangmu1">预约时间</view>
+        <view class="xinxi_xiangmu2">2021-11-21（星期日）</view>
+    </view>
+    <view class="xinxi_xiangmu">
+        <view class="xinxi_xiangmu1">预约楼层</view>
+        <view class="xinxi_xiangmu2">图书馆一楼（14:00）</view>
+    </view>    
+    <view class="xinxi_xiangmu">
+        <view class="xinxi_xiangmu1">预约姓名</view>
+        <view class="xinxi_xiangmu2"><input class="i1" type="text" /></view>
+    </view>    
+    <view class="xinxi_xiangmu">
+        <view class="xinxi_xiangmu1">预约学号</view>
+        <view class="xinxi_xiangmu2"><input class="i1" type="text" /></view>
+    </view>     
+    <view class="xinxi_xiangmu">
+        <view class="xinxi_xiangmu1">联系电话</view>
+        <view class="xinxi_xiangmu2"><input class="i1" type="text" /></view>
+    </view>    
+    <view class="xinxi_xiangmu">
+        <view class="xinxi_xiangmu1">备注说明</view>
+        <view class="xinxi_xiangmu2"><textarea class="t1" ></textarea></view>
+    </view>    
+    <view class="xinxi_xiangmu noborder">
+        <button class="tijiao" bindtap="toList">提交预约</button>
+    </view>    
+
+</view>

@@ -1,0 +1,105 @@
+<!--pages/yuyue/index.wxml-->
+<view class="jiaoshi">
+    <view class="jiaoshi_list">图书馆一楼</view>
+    <view class="jiaoshi_list jiaoshi_xuanzhong">图书馆二楼</view>
+    <view class="jiaoshi_list">图书馆三楼</view>
+    <view class="jiaoshi_list">图书馆四楼</view>
+  
+</view>
+
+
+<view class="tishi">
+    当前信息：图书馆二楼 | 2021-11-20 星期六
+</view>
+
+
+
+<view class="yuyue">
+    <view  class="yuyue_xiangmu biaoti">
+        <view class="yuyue_xiangmu1">时间</view>
+        <view class="yuyue_xiangmu2">日期</view>
+        <view class="yuyue_xiangmu3">操作</view>
+        <view class="yuyue_xiangmu4">星期</view>
+    </view>
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">8:00</view>
+        <view class="yuyue_xiangmu2">11-20</view>
+        <view class="yuyue_xiangmu3 yuyue_guoqi">过期</view>
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view>
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">9:00</view>
+        <view class="yuyue_xiangmu2 yuyue_guoqi">11-20</view>
+        <view class="yuyue_xiangmu3 yuyue_yes">
+           
+            <view>预约成功</view>
+        </view> 
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view>
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">10:00</view>
+        <view class="yuyue_xiangmu2">11-20</view>
+        <view class="yuyue_xiangmu3 yuyue_guoqi">过期</view>
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view>
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">11:00</view>
+        <view class="yuyue_xiangmu2">11-20</view>
+         <view class="yuyue_xiangmu3 yuyue_guoqi">过期</view>
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view>    
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">12:00</view>
+        <view class="yuyue_xiangmu2">11-20</view>
+        <view class="yuyue_xiangmu3 yuyue_guoqi">过期</view>
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view>    
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">13:00</view>
+        <view class="yuyue_xiangmu2">11-20</view>
+         <view class="yuyue_xiangmu3 yuyue_guoqi">过期</view>
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view>       
+    <view class="h10"></view>
+
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">14:00</view>
+        <view class="yuyue_xiangmu2">11-20</view>
+        <navigator class="yuyue_xiangmu3" url="/pages/yuyue/add">预约</navigator> 
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view>
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">15:00</view>
+        <view class="yuyue_xiangmu2 yuyue_yes">11-20</view>
+        <view class="yuyue_xiangmu3 yuyue_yes">
+          
+            <view>预约成功</view>
+        </view> 
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view>
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">16:00</view>
+        <view class="yuyue_xiangmu2">11-20</view>
+        <navigator class="yuyue_xiangmu3" url="/pages/yuyue/add">预约</navigator> 
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view>
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">17:00</view>
+        <view class="yuyue_xiangmu2">11-20</view>
+        <navigator class="yuyue_xiangmu3" url="/pages/yuyue/add">预约</navigator> 
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view>    
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">18:00</view>
+        <view class="yuyue_xiangmu2">11-20</view>
+        <navigator class="yuyue_xiangmu3" url="/pages/yuyue/add">预约</navigator> 
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view>    
+    <view  class="yuyue_xiangmu">
+        <view class="yuyue_xiangmu1">19:00</view>
+        <view class="yuyue_xiangmu2">11-20</view>
+        <navigator class="yuyue_xiangmu3" url="/pages/yuyue/add">预约</navigator> 
+        <view class="yuyue_xiangmu4">星期六</view>
+    </view> 
+    <view class="h10"></view>
+</view>
